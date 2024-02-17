@@ -1,3 +1,5 @@
+local normal = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lucifer4381/ui-normal-hub/main/scr')))()
+
 _G.Color = Color3.fromRGB(0, 0, 255)
 _G.Logo = 16236291528
 local Win = library:Evil("Evo","Merry HUB",_G.Logo )
