@@ -1128,7 +1128,7 @@ function MakeWindow(Configs)
       Size = UDim2.new(1, -100, 1, tonumber(-TextButton.Size.Y.Offset - 20)),
       Position = UDim2.new(0, 10, 0, tonumber(TextButton.Size.Y.Offset + 12.5)),
       Visible = false,
-      Image = "rbxassetid://4155801252"
+      Image = "rbxassetid://17387720794"
     })Corner(UI_Grade)Stroke(UI_Grade)local SavePos = Create("Frame", UI_Grade, {Visible = false})
     
     local grade = Create("TextButton", TextButton, {
