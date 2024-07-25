@@ -1,0 +1,310 @@
+local MainTab = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local Header = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local tab = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local tab2 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Discord = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local ESP = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Lantern = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UICorner_8 = Instance.new("UICorner")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local UICorner_9 = Instance.new("UICorner")
+local Onoff = Instance.new("ImageButton")
+local UICorner_10 = Instance.new("UICorner")
+
+--Properties:
+
+MainTab.Name = "MainTab"
+MainTab.Parent = game.Workspace
+MainTab.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = MainTab
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.24362275, 0, 0.274568528, 0)
+Main.Size = UDim2.new(0.510831475, 0, 0.472192436, 0)
+Main.Visible = false
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(1, 21, 42)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(3, 63, 127)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 255))}
+UIGradient.Rotation = -140
+UIGradient.Parent = Main
+
+Header.Name = "Header"
+Header.Parent = Main
+Header.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Header.BackgroundTransparency = 0.800
+Header.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Header.BorderSizePixel = 0
+Header.Position = UDim2.new(0.0194786843, 0, 0.0236811489, 0)
+Header.Size = UDim2.new(0.963056147, 0, 0.194724917, 0)
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = Header
+
+TextLabel.Parent = Header
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.494694501, 0, 0, 0)
+TextLabel.Size = UDim2.new(0.488674074, 0, 1, 0)
+TextLabel.Font = Enum.Font.Arcade
+TextLabel.Text = "By Punfevpu^^"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Header
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.76018554, 0, 4.37101412, 0)
+TextLabel_2.Size = UDim2.new(0.23981443, 0, 0.6428231, 0)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "Version 1.0"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = Main
+
+tab.Name = "tab"
+tab.Parent = Main
+tab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+tab.BackgroundTransparency = 0.800
+tab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tab.BorderSizePixel = 0
+tab.Position = UDim2.new(0.0194787681, 0, 0.240195408, 0)
+tab.Size = UDim2.new(0.455233514, 0, 0.732740045, 0)
+
+UICorner_3.CornerRadius = UDim.new(0, 15)
+UICorner_3.Parent = tab
+
+TextButton.Parent = tab
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+TextButton.BackgroundTransparency = 0.850
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.121186592, 0, 0.68331027, 0)
+TextButton.Size = UDim2.new(0.757624567, 0, 0.252050877, 0)
+TextButton.Font = Enum.Font.Unknown
+TextButton.Text = "Skip"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 34.000
+TextButton.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 15)
+UICorner_4.Parent = TextButton
+
+TextLabel_3.Parent = tab
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.273648053, 0, 0.062600486, 0)
+TextLabel_3.Size = UDim2.new(0.457384348, 0, 0.152822882, 0)
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "The Mimic"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = tab
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.0273648761, 0, 0.215423375, 0)
+TextLabel_4.Size = UDim2.new(0.95776999, 0, 0.29344964, 0)
+TextLabel_4.Font = Enum.Font.Unknown
+TextLabel_4.Text = "Book 1 Chapter 1"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 44.000
+TextLabel_4.TextWrapped = true
+
+tab2.Name = "tab2"
+tab2.Parent = Main
+tab2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+tab2.BackgroundTransparency = 0.800
+tab2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tab2.BorderSizePixel = 0
+tab2.Position = UDim2.new(0.495897204, 0, 0.240195662, 0)
+tab2.Size = UDim2.new(0.486637682, 0, 0.732739985, 0)
+
+UICorner_5.CornerRadius = UDim.new(0, 15)
+UICorner_5.Parent = tab2
+
+Discord.Name = "Discord"
+Discord.Parent = tab2
+Discord.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+Discord.BackgroundTransparency = 0.850
+Discord.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Discord.BorderSizePixel = 0
+Discord.Position = UDim2.new(0.0365670137, 0, 0.0323187672, 0)
+Discord.Size = UDim2.new(0.930519283, 0, 0.183104262, 0)
+Discord.Font = Enum.Font.Unknown
+Discord.Text = "Copy Discord Link"
+Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+Discord.TextScaled = true
+Discord.TextSize = 28.000
+Discord.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 15)
+UICorner_6.Parent = Discord
+
+ESP.Name = "ESP"
+ESP.Parent = tab2
+ESP.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+ESP.BackgroundTransparency = 0.850
+ESP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESP.BorderSizePixel = 0
+ESP.Position = UDim2.new(0.0365670137, 0, 0.272401035, 0)
+ESP.Size = UDim2.new(0.930519164, 0, 0.173871458, 0)
+ESP.Font = Enum.Font.Unknown
+ESP.Text = "ESP"
+ESP.TextColor3 = Color3.fromRGB(255, 255, 255)
+ESP.TextScaled = true
+ESP.TextSize = 14.000
+ESP.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 15)
+UICorner_7.Parent = ESP
+
+Lantern.Name = "Lantern"
+Lantern.Parent = tab2
+Lantern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lantern.BackgroundTransparency = 1.000
+Lantern.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Lantern.BorderSizePixel = 0
+Lantern.Position = UDim2.new(0.0365670137, 0, 0.508872628, 0)
+Lantern.Size = UDim2.new(0.930519044, 0, 0.107917517, 0)
+Lantern.Font = Enum.Font.Unknown
+Lantern.Text = "Obtained [Only Nigthmare]"
+Lantern.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lantern.TextScaled = true
+Lantern.TextSize = 14.000
+Lantern.TextWrapped = true
+
+ImageLabel.Parent = tab2
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0694799349, 0, 0.683309972, 0)
+ImageLabel.Size = UDim2.new(0.178963616, 0, 0.252050906, 0)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+ImageLabel_2.Parent = tab2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.288900077, 0, 0.683309972, 0)
+ImageLabel_2.Size = UDim2.new(0.185309082, 0, 0.252050906, 0)
+ImageLabel_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+ImageLabel_3.Parent = Main
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(-1.11457076e-07, 0, -5.16210363e-08, 0)
+ImageLabel_3.Size = UDim2.new(1.00000024, 0, 1.00000012, 0)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=18653181574"
+ImageLabel_3.ImageTransparency = 0.900
+
+UICorner_8.CornerRadius = UDim.new(0, 15)
+UICorner_8.Parent = ImageLabel_3
+
+ImageLabel_4.Parent = Main
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0, 0, -0.0304488745, 0)
+ImageLabel_4.Size = UDim2.new(0.495897204, 0, 0.316514164, 0)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=18653318463"
+
+ImageLabel_5.Parent = Main
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.790537059, 0, 0.692142606, 0)
+ImageLabel_5.Size = UDim2.new(0.144327983, 0, 0.233429357, 0)
+ImageLabel_5.Image = "http://www.roblox.com/asset/?id=6663675885"
+
+ImageLabel_6.Parent = Main
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Position = UDim2.new(-0.477223963, 0, 1.26187193, 0)
+ImageLabel_6.Size = UDim2.new(0.343309045, 0, 0.331537843, 0)
+ImageLabel_6.Image = "rbxassetid://18653081068"
+ImageLabel_6.ImageTransparency = 0.900
+
+UICorner_9.CornerRadius = UDim.new(0, 15)
+UICorner_9.Parent = ImageLabel_6
+
+Onoff.Name = "Onoff"
+Onoff.Parent = MainTab
+Onoff.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Onoff.BackgroundTransparency = 1.000
+Onoff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Onoff.BorderSizePixel = 0
+Onoff.Position = UDim2.new(0.125211298, 0, 0.168039143, 0)
+Onoff.Size = UDim2.new(0.0723431557, 0, 0.133546337, 0)
+Onoff.Image = "http://www.roblox.com/asset/?id=18653357507"
+
+UICorner_10.CornerRadius = UDim.new(0, 15)
+UICorner_10.Parent = Onoff
+
+-- Scripts:
+
+local function LTWAAPI_fake_script() -- Onoff.LocalScript 
+	local script = Instance.new('LocalScript', Onoff)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Frame = script.Parent.Parent.Main
+		local Sw = script.Parent.Parent.ACT
+		local S = script.Parent.Sound
+		
+		if Sw.Value == false then
+			Sw.Value = true
+			Frame.Visible = true
+			S:Play()
+		else
+			Sw.Value = false
+			Frame.Visible = false
+			S:Play()
+		end
+	end)
+end
+coroutine.wrap(LTWAAPI_fake_script)()
