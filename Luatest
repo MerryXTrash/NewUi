@@ -33,7 +33,7 @@ local UICorner_10 = Instance.new("UICorner")
 --Properties:
 
 MainTab.Name = "MainTab"
-MainTab.Parent = game.Coregui
+MainTab.Parent = game.CoreGui
 MainTab.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
