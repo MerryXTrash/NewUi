@@ -1,0 +1,70 @@
+local Library = loadstring(game:HttpGet("https://pst.innomi.net/paste/cjayku54donghnc33mkjdff3/raw"))()
+
+local Window = Library:CreateWindow({
+    Credit = "Punfevpu",
+    BackgroundColor = Color3.fromRGB(0, 0, 0)  -- Set background to black
+})
+
+local Page1 = Window:AddPage({
+    Title = "Main",
+    Icon = "home",
+    Page = {
+        Left = {
+            Name = "General",
+            Icon = "arrow-big-up"
+        },
+        Right = {
+            Name = "Setting",
+            Icon = "file-cog"
+        }
+    }
+})
+
+Page1:CreateButton("TeleportButton", {
+    Title = "Teleport",
+    Desc = "Teleport to a specific location",
+    Secure = true,
+    Callback = function()
+        print("Teleport button clicked")  -- Replace with actual teleport functionality
+    end
+})
+
+Page1:CreateToggle("FarmLevelToggle", {
+    Title = "Farm Level Toggle",
+    Desc = "Toggle to enable or disable farming",
+    Value = true,
+    Callback = function(enabled)
+        if enabled then
+            print("Farm Level is enabled")  -- Add functionality for when toggle is enabled
+        else
+            print("Farm Level is disabled")  -- Add functionality for when toggle is disabled
+        end
+    end
+})
+
+Page1:CreateLabel("FarmQuestLabel", {
+    Title = "Farm Quest Label",
+    Desc = "Information about farming quests"
+})
+
+Page1:CreateDropdown("QuestDropdown", {
+    Title = "Select Quest",
+    Desc = "Choose a quest to farm",
+    Value = "Test",  -- Default selected value
+    List = {"Test1", "Test2"},  -- List of options
+    MultiDropdown = false,
+    Callback = function(selected)
+        print("Selected quest: " .. selected)  -- Handle the selected quest
+    end
+})
+
+Page1:CreateSlider("Slider", {
+    Title = "Slider",
+    Desc = "Setup Point",
+    Min = 1,
+    Max = 1000,
+    Value = 500,  -- Default value for the slider
+    Callback = function(value)
+        print("Slider value: " .. value)  -- Handle the slider value
+    end
+})
