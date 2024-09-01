@@ -1,5 +1,15 @@
 local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/MerryXTrash/NewUi/main/%E0%B8%81%E0%B9%87%E0%B8%AD%E0%B8%9B%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%AB%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B9%84%E0%B8%A3.lua.txt"))()
 
+local Window = UI:NewWindow('Xervice','The Mimic','rbxassetid://6886692638')
+local MenuChangeLog = Window:AddMenu('Change Log',"i don't know",'hash','change')
+local MenuFunctions = Window:AddMenu('Functions',"Script Auto Fuck",'ticket','tab')
+
+local TabFunctions = MenuFunctions:AddTab('Main','Auto Kaitun','box-select')
+local TabTeleport = MenuFunctions:AddTab('Teleport','Teleport (anti chaet)','list')
+
+local ChangeLogSection = MenuChangeLog:AddTab():AddSection('Change Log' idk idk idk)
+local MainSection = TabFunctions:AddSection('Auto Farm','auto kaitun, level from 1 to 700 levels in 10s','afk farm kaitun script','book-open')
+local TeleportSection = TabTeleport:AddSection('Teleports','teleport to porn hub','teleport and steal your discord token','server')
 
 MainSection:AddToggle('Auto Farm',false,function(v)
 	print(v)
