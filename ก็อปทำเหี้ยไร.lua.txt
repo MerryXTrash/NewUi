@@ -16,7 +16,7 @@ local UI = require(script:WaitForChild('ModuleScript'))
 --	UI.Config.DropColor <color3>
 --	UI.Config["UI Size"] <udim2>
 
-local Window = UI:NewWindow('SWITCH HUB','Series A B C D','rbxassetid://6886692638')
+local Window = UI:NewWindow('Xervice HUB','The Mimic','rbxassetid://6886692638')
 local MenuChangeLog = Window:AddMenu('Change Log',"i don't know",'hash','change')
 local MenuFunctions = Window:AddMenu('Functions',"Script Auto Fuck",'ticket','tab')
 
